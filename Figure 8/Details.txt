@@ -1,0 +1,4 @@
+ReadMe for Fig8 data.
+‘ConditionKey’ indicates the shoulder angle, elbow angle, and stiffness level in columns 1-3 respectively for each of the 3795 runs. 
+Dimension 2 of the Error variables is time, and Dimension 3 aligns with the 11 scenarios listed in table 2.
+Note, conditions where the standard and fatigue resistant lookup tables weren’t actually different (e.g. due to hitting muscle activation limits in both conditions) have NaNs in their Error matrix entries. This was ~2% of the entries 
